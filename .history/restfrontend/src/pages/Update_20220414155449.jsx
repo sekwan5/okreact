@@ -29,17 +29,17 @@ const Update = () => {
       />
       <input
         type="text"
-        placeholder="password"
-        id="password"
-        value={params.password}
-        onChange={(e) => setParams({...params, password: e.target.value})}
+        placeholder="lastName"
+        id="lastName"
+        value={params.lastName}
+        onChange={(e) => setParams({...params, lastName: e.target.value})}
       />
       <input
         type="text"
-        placeholder="email"
-        id="email"
-        value={params.email}
-        onChange={(e) => setParams({...params, email: e.target.value})}
+        placeholder="lastName"
+        id="lastName"
+        value={params.lastName}
+        onChange={(e) => setParams({...params, lastName: e.target.value})}
       />
       <button type="submit" onClick={handleChange}>
         Update

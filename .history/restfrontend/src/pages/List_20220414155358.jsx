@@ -14,7 +14,7 @@ const List = () => {
   }, [a]);
 
   const listItems = data.map((item, index) => (
-    <li key={index}>{`${item.username}, ${item.password}, ${item.email}`}</li>
+    <li key={index}>{`${item.username}, ${item.passw}`}</li>
   ));
 
   return (

@@ -1,5 +1,4 @@
 {
-  
   "compilerOptions": {
     "lib": ["es2020", "DOM"],
     "moduleResolution": "node",

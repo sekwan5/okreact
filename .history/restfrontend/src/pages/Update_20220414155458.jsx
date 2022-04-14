@@ -37,9 +37,9 @@ const Update = () => {
       <input
         type="text"
         placeholder="email"
-        id="email"
-        value={params.email}
-        onChange={(e) => setParams({...params, email: e.target.value})}
+        id="lastName"
+        value={params.lastName}
+        onChange={(e) => setParams({...params, lastName: e.target.value})}
       />
       <button type="submit" onClick={handleChange}>
         Update

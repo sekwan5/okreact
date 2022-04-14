@@ -15,7 +15,7 @@ const Create = () => {
     <>
       <h1>Create</h1>
       <input type="text" placeholder="username" id="username" />
-      <input type="text" placeholder="password" id="password" />
+      <input type="text" placeholder="email" id="email" />
       <input type="text" placeholder="email" id="email" />
       <button type="submit" onClick={handleChange}>
         Submit
